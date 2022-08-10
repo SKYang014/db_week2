@@ -47,9 +47,10 @@ do
             "\nItem\t\tPrice" +
             "\n================================");
         decimal total = 0;
-        //cart.Sort();
+        
         foreach (var product in cart)
         {
+            
             Console.WriteLine(product+"\t\t"+item[product]);
               total +=  item[product];
         }
